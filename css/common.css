@@ -1,1 +1,15 @@
 /* Inserta tu codigo que es común para todas las páginas aqui */
+header { 
+	padding: 20px 0px; 
+	background: url("../img/textura_2.jpg") no-repeat;
+	background-size: cover; 
+}
+header .menu ul li 
+{ 
+	margin: 10px 20px; 
+	text-decoration:none;
+}
+header .menu ul li a 
+{ 
+	text-decoration:none;
+}

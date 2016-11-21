@@ -1,1 +1,48 @@
 /* Inserta tu codigo aqui */
+*
+{
+	/*outline: 2px solid green;*/
+} 
+/*Esta es la parte de la PRESENTACION*/
+.presentacion
+{
+	background: url("../img/dance_1.jpg") no-repeat;
+	background-size: cover;
+	background-position: top;
+	height: 400px;
+	color: white;
+	padding-top: 50px;
+}
+.presentacion input
+{ 
+	background-color: #19153A; 
+	border:none; 
+	color: white;
+}
+/*Esta es la parte de la OFERTA*/
+.oferta
+{
+	background: url("../img/textura_2.jpg") no-repeat;
+	background-size: cover;
+}
+.oferta .Juilliart{ margin: 80px 0px; }
+.oferta .Juilliart img{ height: 80px; width: 120px; margin-top:-2px;}
+
+.oferta .Juilliart p input
+{
+	background-color: #19153A; 
+	color: white;  
+	height: 50px; 
+	width: 300px;
+}
+/*Esta es la parte de los profesores*/
+.instructores .instructor{
+	background: url("../img/instructor_4.jpg") no-repeat;
+	background-size: cover;
+	padding: 15%;
+}
+.instructores .profesor{
+	background: url("../img/profesor_9.jpg") no-repeat;
+	background-size: cover;
+	padding: 15%;
+}
