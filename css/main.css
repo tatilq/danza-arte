@@ -1,8 +1,12 @@
-/* Inserta tu codigo aqui */
+body
+{
+	
+}
+/* Inserta tu codigo aqui 
 *
 {
-	/*outline: 2px solid green;*/
-} 
+	outline: 2px solid green;
+} */
 /*Esta es la parte de la PRESENTACION*/
 .presentacion
 {
@@ -35,14 +39,51 @@
 	height: 50px; 
 	width: 300px;
 }
-/*Esta es la parte de los profesores*/
-.instructores .instructor{
+/*Esta es la parte de los PROFESORES*/
+.instructores{ height: 320px; }
+.instructores .img_instructor{
 	background: url("../img/instructor_4.jpg") no-repeat;
 	background-size: cover;
-	padding: 15%;
+	background-position: top;
+	height: 320px;
 }
-.instructores .profesor{
+.instructores .img_profesor{
 	background: url("../img/profesor_9.jpg") no-repeat;
 	background-size: cover;
-	padding: 15%;
+	background-position: top;
+	height: 320px;
+}
+.instructores input
+{ 
+	width: 500px; 
+	height: 40px; 
+	position: relative; 
+	bottom: 40px; 
+	border:none;
+	background-color:#19153A;
+	color: white; 
+}
+/*Esta es la seccion de la FRASE MOTIVADORA*/
+.frase_motivadora
+{
+	background: url("../img/textura_2.jpg") no-repeat;
+	background-size: cover;
+}
+/*Esta es la seccion de VISITANOS*/
+.visitanos { background-color:#19153A; color: white; }
+.visitanos #mapa
+{  
+	outline: 3px solid green; 
+	width: 500px; 
+	height: 300px;
+ 	margin: 70px 40px ;
+}
+#mapa iframe{width: 100%; height: 100%;}
+.visitanos .lorem
+{
+	margin: 80px 80px 50px 80px;
+}
+.visitanos .direccion
+{
+	margin-left:80px;
 }
