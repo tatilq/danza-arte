@@ -1,8 +1,7 @@
 /* Inserta tu codigo aqui 
-*
-{
-	outline: 2px solid green;
+outline: 2px solid green;
 } */
+
 /*Esta es la parte de la PRESENTACION*/
 .presentacion
 {
@@ -10,7 +9,7 @@
 	background-size: cover;
 	background-position: top;
 	height: 400px;
-	color: white;
+	color: #D8D8D8;
 	padding-top: 50px;
 }
 .presentacion input
@@ -18,6 +17,13 @@
 	background-color: #19153A; 
 	border:none; 
 	color: white;
+}
+.presentacion h1{
+	font-size: 80px;
+}
+.presentacion p{
+	width: 210px;
+	font-size: 14px;
 }
 /*Esta es la parte de la OFERTA*/
 .oferta
@@ -31,7 +37,7 @@
 .oferta .Juilliart p input
 {
 	background-color: #19153A; 
-	color: white;  
+	color: #D8D8D8;  
 	height: 50px; 
 	width: 300px;
 }
