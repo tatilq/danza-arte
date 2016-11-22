@@ -48,18 +48,33 @@
 	color: #A4A4A4;
 }
 /*---------- Instructores Section-----------------------------------*/
-.container-instructores img{
-	height: 160px;
+.container-instructores
+{
+	padding: 30px 40px;
 }
+.container-instructores .col-md-8
+{
+	margin-left: -10px;
+}
+
+.container-instructores img{
+	width: 200px;
+	height: 130px;
+}
+
 .container-instructores p{
 	color: black;
 	text-align: left;
+	margin-left: -10px;
 }
 .container-instructores h3{
 	color: black;
 	text-align: center;
 }
-
+.fila2
+{
+	margin-top: 20px;
+}
 /*--------------Esta es la seccion de la FRASE MOTIVADORA-----------*/
 .frase_motivadora
 {

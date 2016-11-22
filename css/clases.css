@@ -1,36 +1,4 @@
-/*
-*{
 
-}
-.Oferta_clases
-{
-	background-color: #EDEDED;
-
-}
-.Oferta_clases img
-{
-	width: 100%;
-	height: 400px;
-	padding: 
-	border:1px solid green;
-
-}
-.Oferta_clases .row
-{
-	
-	padding: 40px;
-
-}
-.danza
-{
-	position: absolute;
-	bottom: 150px;
-	padding: 10px;
-	margin-right: 20px;
-	margin-left: 10px;
-	color: #fff;
-	background: rgba(47, 47, 47, 0.7);
-}*/
 #clases{
 	background-color: #EDEDED;
 	text-align: center;
