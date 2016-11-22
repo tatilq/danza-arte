@@ -108,3 +108,4 @@ form .btn
 	height: 40px; 
 	margin-top: 10px;
 }
+.btn:focus { outline: none; }
