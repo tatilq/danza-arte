@@ -65,22 +65,29 @@
 		</div>
 	</div>	
 </section>
-
-	<!-- Esta es la seccion de CONTACTANOS -->
+<!--PARTE DE CONTACTANOS -->
 	<section class="contactanos" >
 		<div class="container">
 			<div class="row">
-				<div class=" formulario col-xs-8 col-sm-8 col-md-7 ">
+				<div class=" formulario col-xs-8 col-sm-8 col-md-7">
 					<h1><strong>Contáctanos</strong></h1>
 					<form method="POST" name="fcontacto" id="fcontacto" action="/.">
-						<label><i class="icon-user" aria-hidden="true"></i></label>
-						<input type="text" name="name" id="name" class="form-control" placeholder="Nombre">
-						
-						<label><i class="icon-envelop" aria-hidden="true"></i></label>
-						<input type="text" name="email" id="email" class="form-control" placeholder="Email">
-						
-						<label><i class="icon-pencil" aria-hidden="true"></i></label>
-						<textarea name="mensaje" id="mensaje" cols="40" rows="10" class="form-control" placeholder="Mensaje"></textarea> 
+
+						<div class=" formula input-group">
+						  <span class="input-group-addon"><span class="glyphicon glyphicon-zoom-in"></span></span>
+						  <input type="text" name="name" id="name" class="form-control" placeholder="Nombre">
+						</div>
+
+						<div class="formula input-group">
+						  <span class="input-group-addon"><span class="glyphicon  glyphicon-envelope"></span></span>
+						  <input type="text" name="email" id="email" class="form-control" placeholder="Email">
+						</div>
+
+						<div class="formula input-group">
+						  <span class="input-group-addon"><span class="glyphicon glyphicon-pencil"></span></span>
+						  <textarea name="mensaje" id="mensaje" cols="40" rows="10" class="form-control" placeholder="Mensaje"></textarea> 
+						</div>
+
 						<input type="submit" value="Enviar" class="btn btn-info">
 						<!--Aqui la parte de la validacion-->
 						<div id="repuesta"  style="display: none;"></div>
@@ -95,14 +102,10 @@
 			<div class="row">
 				<small> © Escuela de danza. Todos los derechos reservados.</small>
 			</div>
-		</div>
-		
+		</div>	
 	</footer>
 
 	<script src="boot/js/jquery.js"></script>
 	<script src="boot/js/bootstrap.min.js"></script>
-
-
-	
 </body>
 </html>

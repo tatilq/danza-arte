@@ -34,33 +34,61 @@
 		</div>
 	</header>
 
-	<!--AQUI ES LA PARTE DE LA OFERTA DE CLASES-->
-	<section class="Oferta_clases">
-		<div class="container">
-			<div class="row">
-				<div class="col-xs-4 col-sm-4 col-md-3">
-					<img src="img/dance_12.jpg" alt="" class="img-responsive">
-				</div>
-				<div class="col-xs-4 col-sm-4 col-md-3">
-					<img src="img/breakdance.jpg" alt="" class="img-responsive">
-				</div>
-				<div class="col-xs-4 col-sm-4 col-md-3">
-					<img src="img/lirical-jazz.jpg" alt="" class="img-responsive">
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-xs-4 col-sm-4 col-md-3">
-					<img src="img/arabe.jpg" alt="" class="img-responsive">
-				</div>
-				<div class="col-xs-4 col-sm-4 col-md-3">
-					<img src="img/little.jpg" alt="" class="img-responsive">
-				</div>
-				<div class="col-xs-4 col-sm-4 col-md-3">
-					<img src="img/yoga.jpg" alt="" class="img-responsive">
+<!--aQUI ES LA SECCION DE INSTRUCTORES-->
+
+	<div id="clases">	
+		<h3><b>OFERTA DE CLASES</b></h3>
+		<div class="lecciones">
+			<div class="ballet">
+				<div class="danza">
+					<h4>BALLET</h4>
+					<p class="descripcion">El ballet es la base de casi todos los estilos de baile</p>
 				</div>
 			</div>
 		</div>
-	</section>
+		<div class="lecciones">
+			<div class="modern">
+				<div class="danza">
+					<h4>DANCE MODERN</h4>
+					<p class="descripcion">Mejora mucho la condición física en clases divertidas y diferentes</p>
+				</div>
+			</div>
+		</div>
+		<div class="lecciones">
+			<div class="jazz">
+				<div class="danza">
+					<h4>JAZZ LIRIC</h4>
+					<p class="descripcion">Gran variedad de movimientos haciéndolo único y diferente</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="lecciones">
+			<div class="arabic">
+				<div class="danza">
+					<h4>ARABIC DANCE</h4>
+					<p class="descripcion">Sensual baile que combina lo tradicional y la fantasía</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="lecciones">
+			<div class="kids">
+				<div class="danza">
+					<h4>KIDS LESSONS</h4>
+					<p class="descripcion">Super divertido y práctico para los engreídos de casa</p>
+				</div>
+			</div>
+		</div>
+		<div class="lecciones">
+			<div class="yoga">
+				<div class="danza">
+					<h4>YOGA DANCE</h4>
+					<p class="descripcion">Disciplina física y mental para generar bienestar integral</p>
+				</div>
+			</div>
+		</div>
+	</div>
 
 	<!--PARTE DE CONTACTANOS -->
 	<section class="contactanos" >
@@ -69,14 +97,22 @@
 				<div class=" formulario col-xs-8 col-sm-8 col-md-7 ">
 					<h1><strong>Contáctanos</strong></h1>
 					<form method="POST" name="fcontacto" id="fcontacto" action="/.">
-						<label><i class="icon-user" aria-hidden="true"></i></label>
-						<input type="text" name="name" id="name" class="form-control" placeholder="Nombre">
-						
-						<label><i class="icon-envelop" aria-hidden="true"></i></label>
-						<input type="text" name="email" id="email" class="form-control" placeholder="Email">
-						
-						<label><i class="icon-pencil" aria-hidden="true"></i></label>
-						<textarea name="mensaje" id="mensaje" cols="40" rows="10" class="form-control" placeholder="Mensaje"></textarea> 
+
+						<div class=" formula input-group">
+						  <span class="input-group-addon"><span class="glyphicon glyphicon-user"></span></span>
+						  <input type="text" name="name" id="name" class="form-control" placeholder="Nombre">
+						</div>
+
+						<div class="formula input-group">
+						  <span class="input-group-addon"><span class="glyphicon  glyphicon-envelope"></span></span>
+						  <input type="text" name="email" id="email" class="form-control" placeholder="Email">
+						</div>
+
+						<div class="formula input-group">
+						  <span class="input-group-addon"><span class="glyphicon glyphicon-pencil"></span></span>
+						  <textarea name="mensaje" id="mensaje" cols="40" rows="10" class="form-control" placeholder="Mensaje"></textarea> 
+						</div>
+
 						<input type="submit" value="Enviar" class="btn btn-info">
 						<!--Aqui la parte de la validacion-->
 						<div id="repuesta"  style="display: none;"></div>
@@ -85,5 +121,17 @@
 			</div>
 		</div>
 	</section>
+<!-- Esta es la seccion del FOOTER -->
+	<footer>
+		<div class="container-fluid">
+			<div class="row">
+				<small> © Escuela de danza. Todos los derechos reservados.</small>
+			</div>
+		</div>	
+	</footer>
+
+	<script src="boot/js/jquery.js"></script>
+	<script src="boot/js/bootstrap.min.js"></script>
+
 </body>
 </html>
