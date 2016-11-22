@@ -21,12 +21,14 @@ header .menu ul li a { text-decoration:none; }
 	background-position: top;
 	height: 700px;
 }
-.contactanos .formulario{ margin: 100px auto; color:#19153A;}
+.contactanos .formulario{ margin: 120px auto; color:#19153A;}
 .formulario form
 {
 	padding-right: 140px;
 	padding-left: 10px;
 }
+.formulario h1 { margin-bottom: 20px; }
+
 form .btn
 {
 	background-color:#19153A;
@@ -35,6 +37,16 @@ form .btn
 	height: 40px; 
 	margin-top: 10px;
 }
+.formula
+{
+	margin-top: 10px;
+	border: 1px solid gray;
+}
+.formula input
+{
+	outline: none;
+}
+
 .btn:focus { outline: none; }
 
 /*AQUI EL FOOTER*/
