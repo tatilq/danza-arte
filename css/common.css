@@ -1,5 +1,8 @@
 /* Inserta tu codigo que es común para todas las páginas aqui */
 /*AQUI EL HEADER*/
+
+@import url('https://fonts.googleapis.com/css?family=Merienda+One|Permanent+Marker|Rock+Salt|Sacramento|Tangerine');
+
 header { 
 	padding: 20px 0px; 
 	background: url("../img/textura_2.jpg") no-repeat;
@@ -13,11 +16,20 @@ header .menu ul li
 header .menu ul li a { 
 	text-decoration:none;
  }
-header h2{
+header h1{
 	color: #19153A;
  }
+
+.titulo9{
+	font-family: 'Rock Salt', cursive;
+}
+
 /*FRASE MOTIVADORA*/
 .frase_motivadora .frase{ margin: 80px 0px; }
+.fraseok{
+	font-family: 'Tangerine', cursive;
+
+}
 
 /*PARTE DEL CONTACTANOS*/
 .contactanos{
