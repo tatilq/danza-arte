@@ -1,14 +1,14 @@
 *{
 	margin: 0;
 	padding: 0;
-	outline: 1px solid red;
+	outline: 1px solid green;
 }
 /*---------Hero Section --------------------*/
 
 .hero-section {
 	background: url("../img/dance_7.jpg") no-repeat;
 	background-size: cover;
-	height: 400px;
+	height: 410px;
 }
 .hero-section .nosotros{
 	background-color: rgba(142, 103, 139, 0.3);
@@ -17,14 +17,46 @@
 	position: absolute;
     top: 50%; 
     left: 50%;
-    transform: translate(-50%, -50%);}
+    transform: translate(-50%, 50%);
+}
 .nosotros h3,p {
 	text-align: center;
 	color: white;
+	padding: 10px;
+}
+/*-----  pilar-section ----------------------------------*/
+.pilar-section{
+	background: url("../img/tile2.png");
+	height: 400px;
+	width: 100%;
+}
+.pilar-section .pilar{
+	width: 260px;
+	position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, 50%);
+}
+.pilar h3{
+	border-bottom: 1px solid black;
+	margin:5px;
+	padding: 10px;
+	color: #A4A4A4;
+	text-align: center;
+}
+.pilar p{
+	text-align: center;
+	color: #A4A4A4;
 }
 /*---------- Instructores Section-----------------------------------*/
 .container-instructores img{
-	height: 150px;
+	height: 160px;
+}
+.container-instructores p{
+	color: black;
+}
+.container-instructores h3,h5{
+	color: black;
 }
 
 /*--------------Esta es la seccion de la FRASE MOTIVADORA-----------*/
