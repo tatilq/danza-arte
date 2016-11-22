@@ -5,18 +5,31 @@
 }
 /*---------Hero Section --------------------*/
 
-.nosotros .container {
-	background-image: url(img/dance_7.jpg);
-	background-repeat: no-repeat;
-	height: 600px;
+.hero-section {
+	background: url("../img/dance_7.jpg") no-repeat;
+	background-size: cover;
+	height: 400px;
 }
-h3 p {
+.hero-section .nosotros{
+	background-color: rgba(142, 103, 139, 0.3);
 	text-align: center;
-	color: rgba(82,78,82, 0.6);
+	width: 400px;
+	position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%);}
+.nosotros h3,p {
+	text-align: center;
+	color: white;
+}
+/*---------- Instructores Section-----------------------------------*/
+.container-instructores img{
+	height: 150px;
 }
 
-
-/*---------- Instructores Section------------*/
-.container-instructores img{
-	height: 200px;
+/*--------------Esta es la seccion de la FRASE MOTIVADORA-----------*/
+.frase_motivadora
+{
+	background: url("../img/textura_2.jpg") no-repeat;
+	background-size: cover;
 }

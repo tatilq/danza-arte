@@ -1,1 +1,6 @@
-/* Inserta tu codigo aqui */
+*{
+	outline: 1px solid green;
+}
+.blog img{
+		height: 50px;
+}
