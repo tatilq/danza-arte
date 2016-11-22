@@ -1,5 +1,5 @@
 /*Evita que la pagina se recargue*/
-
+/*alert("Recibido");*/
 $(document).ready(fuction(){
 	$("#fcontacto").submit(fuction(event){
 		event.preventDefault();
@@ -12,7 +12,6 @@ $(document).ready(fuction(){
 				$("#respuesta").slideDown();
 				$("#respuesta").html(data);
 			}
-			alert("Recibido");
 		});
 		return false;
 	});
