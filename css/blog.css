@@ -9,8 +9,15 @@
 	margin: 60px 0px;
 	background: #D4D4D5;
 }
+
 .grand .col-md-3{
 	padding: 0px;
+}
+.blog h3{
+	text-align: center;
+	margin:0px;
+	padding: 10px;
+
 }
 .fotoblog{
 	width: 100%;
@@ -37,6 +44,7 @@
 	border-radius: 5px;
 	margin-top: 25px;
 }
+
 .boton a{
 	text-decoration: none;
 	color: #fff;

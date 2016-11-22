@@ -10,7 +10,12 @@ header .menu ul li
 	margin: 10px 20px; 
 	text-decoration:none;
 }
-header .menu ul li a { text-decoration:none; }
+header .menu ul li a { 
+	text-decoration:none;
+ }
+header h2{
+	color: #19153A;
+ }
 /*FRASE MOTIVADORA*/
 .frase_motivadora .frase{ margin: 80px 0px; }
 

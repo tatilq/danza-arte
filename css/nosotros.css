@@ -53,9 +53,11 @@
 }
 .container-instructores p{
 	color: black;
+	text-align: left;
 }
-.container-instructores h3,h5{
+.container-instructores h3{
 	color: black;
+	text-align: center;
 }
 
 /*--------------Esta es la seccion de la FRASE MOTIVADORA-----------*/
