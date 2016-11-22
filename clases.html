@@ -14,6 +14,76 @@
 	<link rel="stylesheet" href="boot/css/bootstrap.min.css">
 </head>
 <body>
-	<!-- Inserta tu código aqui -->
+	
+<!--aQUI ES EL HEADER-->
+	<header>
+		<div class="container">
+			<div class="row menu">
+				<div class="col-md-12 text-center ">
+					<h3><strong>ESCUELA DE DANZA</strong></h3>
+				</div>
+				<div class="col-md-12 ">
+					<ul class="list-inline list-unstyled text-center">
+						<li><a href="nosotros.html">Nosotros</a></li>
+						<li><a href="clases.html">Clases</a></li>
+						<li><a href="blog.html">Blog</a></li>
+						<li><a href="index.html">Contáctanos</a></li>
+					</ul>
+				</div>	
+			</div>
+		</div>
+	</header>
+
+	<!--AQUI ES LA PARTE DE LA OFERTA DE CLASES-->
+	<section class="Oferta_clases">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-4 col-sm-4 col-md-3">
+					<img src="img/dance_12.jpg" alt="" class="img-responsive">
+				</div>
+				<div class="col-xs-4 col-sm-4 col-md-3">
+					<img src="img/breakdance.jpg" alt="" class="img-responsive">
+				</div>
+				<div class="col-xs-4 col-sm-4 col-md-3">
+					<img src="img/lirical-jazz.jpg" alt="" class="img-responsive">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-4 col-sm-4 col-md-3">
+					<img src="img/arabe.jpg" alt="" class="img-responsive">
+				</div>
+				<div class="col-xs-4 col-sm-4 col-md-3">
+					<img src="img/little.jpg" alt="" class="img-responsive">
+				</div>
+				<div class="col-xs-4 col-sm-4 col-md-3">
+					<img src="img/yoga.jpg" alt="" class="img-responsive">
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!--PARTE DE CONTACTANOS -->
+	<section class="contactanos" >
+		<div class="container">
+			<div class="row">
+				<div class=" formulario col-xs-8 col-sm-8 col-md-7 ">
+					<h1><strong>Contáctanos</strong></h1>
+					<form method="POST" name="fcontacto" id="fcontacto" action="/.">
+						<label><i class="icon-user" aria-hidden="true"></i></label>
+						<input type="text" name="name" id="name" class="form-control" placeholder="Nombre">
+						
+						<label><i class="icon-envelop" aria-hidden="true"></i></label>
+						<input type="text" name="email" id="email" class="form-control" placeholder="Email">
+						
+						<label><i class="icon-pencil" aria-hidden="true"></i></label>
+						<textarea name="mensaje" id="mensaje" cols="40" rows="10" class="form-control" placeholder="Mensaje"></textarea> 
+						<input type="submit" value="Enviar" class="btn btn-info">
+						<!--Aqui la parte de la validacion-->
+						<div id="repuesta"  style="display: none;"></div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
 </body>
 </html>
