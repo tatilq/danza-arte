@@ -1,138 +1,125 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset="UTF-8">
-	<title>Escuela de Danza</title>
-	<link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Montserrat:400,700'>
-	<link rel="stylesheet" type="text/css" href="css/utilities.css">
-	<link rel="stylesheet" type="text/css" href="css/common.css">
-	<link rel="stylesheet" type="text/css" href="css/clases.css">
-	<link href="https://fonts.googleapis.com/css?family=Bonbon|Rouge+Script" rel="stylesheet">
-
-	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-	
-	<link rel="stylesheet" href="boot/css/bootstrap.min.css">
-</head>
-<body>
-	
+	<head>
+		<meta charset="UTF-8">
+		<title>Escuela de Danza</title>
+		<link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Montserrat:400,700'>
+		<link rel="stylesheet" type="text/css" href="css/utilities.css">
+		<link rel="stylesheet" type="text/css" href="css/common.css">
+		<link rel="stylesheet" type="text/css" href="css/clases.css">
+		<link href="https://fonts.googleapis.com/css?family=Bonbon|Rouge+Script" rel="stylesheet">
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+		<link rel="stylesheet" href="boot/css/bootstrap.min.css">
+	</head>
+	<body>
 <!--aQUI ES EL HEADER-->
-	<header>
-		<div class="container">
-			<div class="row menu">
-				<div class="col-md-12 text-center ">
-					<h1 class="titulo9">ESCUELA DE DANZA</h1>
+		<header>
+			<div class="container">
+				<div class="row menu">
+					<div class="col-md-12 text-center ">
+						<h1><strong>ESCUELA DE DANZA</strong></h1>
+					</div>
+					<div class="col-md-12 ">
+						<ul class="list-inline list-unstyled text-center">
+							<li><a href="nosotros.html">Nosotros</a></li>
+							<li><a href="clases.html">Clases</a></li>
+							<li><a href="blog.html">Blog</a></li>
+							<li><a href="index.html">Contáctanos</a></li>
+						</ul>
+					</div>	
 				</div>
-				<div class="col-md-12 ">
-					<ul class="list-inline list-unstyled text-center">
-						<li><a href="nosotros.html">Nosotros</a></li>
-						<li><a href="clases.html">Clases</a></li>
-						<li><a href="blog.html">Blog</a></li>
-						<li><a href="index.html">Contáctanos</a></li>
-					</ul>
-				</div>	
 			</div>
-		</div>
-	</header>
-
+		</header>
 <!--aQUI ES LA SECCION DE INSTRUCTORES-->
+		<div id="clases">	
+			<h3><b>OFERTA DE CLASES</b></h3>
+			<div class="lecciones">
+				<div class="ballet">
+					<div class="danza">
+						<h4>BALLET</h4>
+						<p class="descripcion">El ballet es la base de casi todos los estilos de baile</p>
+					</div>
+				</div>
+			</div>
+			<div class="lecciones">
+				<div class="modern">
+					<div class="danza">
+						<h4>DANCE MODERN</h4>
+						<p class="descripcion">Mejora mucho la condición física en clases divertidas y diferentes</p>
+					</div>
+				</div>
+			</div>
+			<div class="lecciones">
+				<div class="jazz">
+					<div class="danza">
+						<h4>JAZZ LIRIC</h4>
+						<p class="descripcion">Gran variedad de movimientos haciéndolo único y diferente</p>
+					</div>
+				</div>
+			</div>
+			<div class="lecciones">
+				<div class="arabic">
+					<div class="danza">
+						<h4>ARABIC DANCE</h4>
+						<p class="descripcion">Sensual baile que combina lo tradicional y la fantasía</p>
+					</div>
+				</div>
+			</div>
 
-	<div id="clases">	
-		<h3><b>OFERTA DE CLASES</b></h3>
-		<div class="lecciones">
-			<div class="ballet">
-				<div class="danza">
-					<h4>BALLET</h4>
-					<p class="descripcion">El ballet es la base de casi todos los estilos de baile</p>
+			<div class="lecciones">
+				<div class="kids">
+					<div class="danza">
+						<h4>KIDS LESSONS</h4>
+						<p class="descripcion">Super divertido y práctico para los engreídos de casa</p>
+					</div>
+				</div>
+			</div>
+			<div class="lecciones">
+				<div class="yoga">
+					<div class="danza">
+						<h4>YOGA DANCE</h4>
+						<p class="descripcion">Disciplina física y mental para generar bienestar integral</p>
+					</div>
 				</div>
 			</div>
 		</div>
-		<div class="lecciones">
-			<div class="modern">
-				<div class="danza">
-					<h4>DANCE MODERN</h4>
-					<p class="descripcion">Mejora mucho la condición física en clases divertidas y diferentes</p>
+<!-- Esta es la seccion de CONTACTANOS -->
+		<section class="contacto" Id="contacto">
+			<div class="container ">
+				<div class="row">
+					<div class="col-md-6">
+						<form action="formulario">
+							<h3>Contactanos</h3>
+							<div class="left-inner-addon ">
+								<i class="glyphicon glyphicon-user"></i>
+								<input type=user class="form-control" placeholder="Nombre" />
+							</div>
+							<br>
+							<div class="left-inner-addon ">
+								<i class="glyphicon glyphicon-envelope"></i>
+								<input type="email" class="form-control" placeholder="E-mail" />
+							</div>
+							<br>
+							<div class="left-inner-addon ">
+								<i class="glyphicon glyphicon-pencil"></i>
+								<textarea type="mensaje" rows="4" cols="50" class="form-control" placeholder="Mensaje"></textarea>
+								<button type="button" name="button">Enviar</button>
+							</div>
+						</form>
+					</div>
 				</div>
 			</div>
-		</div>
-		<div class="lecciones">
-			<div class="jazz">
-				<div class="danza">
-					<h4>JAZZ LIRIC</h4>
-					<p class="descripcion">Gran variedad de movimientos haciéndolo único y diferente</p>
-				</div>
-			</div>
-		</div>
-
-		<div class="lecciones">
-			<div class="arabic">
-				<div class="danza">
-					<h4>ARABIC DANCE</h4>
-					<p class="descripcion">Sensual baile que combina lo tradicional y la fantasía</p>
-				</div>
-			</div>
-		</div>
-
-		<div class="lecciones">
-			<div class="kids">
-				<div class="danza">
-					<h4>KIDS LESSONS</h4>
-					<p class="descripcion">Super divertido y práctico para los engreídos de casa</p>
-				</div>
-			</div>
-		</div>
-		<div class="lecciones">
-			<div class="yoga">
-				<div class="danza">
-					<h4>YOGA DANCE</h4>
-					<p class="descripcion">Disciplina física y mental para generar bienestar integral</p>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<!--PARTE DE CONTACTANOS -->
-	<section class="contactanos" >
-		<div class="container">
-			<div class="row">
-				<div class=" formulario col-xs-8 col-sm-8 col-md-7 ">
-					<h1><strong>Contáctanos</strong></h1>
-					<br>
-					<form method="POST" name="fcontacto" id="fcontacto" action="/.">
-
-						<div class=" formula input-group">
-						  <span class="input-group-addon"><span class="glyphicon glyphicon-user"></span></span>
-						  <input type="text" name="name" id="name" class="form-control" placeholder="Nombre">
-						</div>
-
-						<div class="formula input-group">
-						  <span class="input-group-addon"><span class="glyphicon  glyphicon-envelope"></span></span>
-						  <input type="text" name="email" id="email" class="form-control" placeholder="Email">
-						</div>
-
-						<div class="formula input-group">
-						  <span class="input-group-addon"><span class="glyphicon glyphicon-pencil"></span></span>
-						  <textarea name="mensaje" id="mensaje" cols="40" rows="10" class="form-control" placeholder="Mensaje"></textarea> 
-						</div>
-
-						<input type="submit" value="Enviar" class="btn btn-info">
-						<!--Aqui la parte de la validacion-->
-						<div id="repuesta"  style="display: none;"></div>
-					</form>
-				</div>
-			</div>
-		</div>
-	</section>
+		</section>
 <!-- Esta es la seccion del FOOTER -->
-	<footer>
-		<div class="container-fluid">
-			<div class="row">
-				<small> © Escuela de danza. Todos los derechos reservados.</small>
-			</div>
-		</div>	
-	</footer>
-
-	<script src="boot/js/jquery.js"></script>
-	<script src="boot/js/bootstrap.min.js"></script>
-
-</body>
+		<footer>
+			<div class="container-fluid">
+				<div class="row">
+					<small> © Escuela de danza. Todos los derechos reservados.</small>
+				</div>
+			</div>	
+		</footer>
+<!-- AQUI ESTAN LOS SCRIPT -->
+		<script src="boot/js/jquery.js"></script>
+		<script src="boot/js/bootstrap.min.js"></script>
+	</body>
 </html>

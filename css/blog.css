@@ -1,5 +1,8 @@
-/**{outline:1px solid rgba(255,0,0,1);}*/
-
+*
+{
+  margin: 0;
+  padding: 0;
+  }
 .blog{
 	background-color: #EDEDED;
 	padding: 60px 120px;

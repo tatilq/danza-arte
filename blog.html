@@ -1,120 +1,115 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">	
-	<link rel="stylesheet" href="boot/css/bootstrap.min.css">
-	<title>Escuela de Danza</title>
-	<link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Montserrat:400,700'>
-	<link rel="stylesheet" type="text/css" href="css/utilities.css">
-	<link rel="stylesheet" type="text/css" href="css/common.css">
-	<link rel="stylesheet" type="text/css" href="css/blog.css">
-	<link href="https://fonts.googleapis.com/css?family=Bonbon|Rouge+Script" rel="stylesheet">	
-</head>
-<body>
-<!--------- header -------------------------->
-	<header>
-		<div class="container">
-			<div class="row menu">
-				<div class="col-md-12 text-center ">
-					<h1 class="titulo9">ESCUELA DE DANZA</h1>
-				</div>
-				<div class="col-md-12 ">
-					<ul class="list-inline list-unstyled text-center">
-						<li><a href="nosotros.html">Nosotros</a></li>
-						<li><a href="clases.html">Clases</a></li>
-						<li><a href="blog.html">Blog</a></li>
-						<li><a href="index.html">Contáctanos</a></li>
-					</ul>
-				</div>	
-			</div>
-		</div>
-	</header>
-	<!---------Blog Section -------------------->
-<section class="blog">
-	<h3><b>BLOG</b></h3>
-	<div class="row grand">
-		<div class="col-md-3">
-			<img class="fotoblog" src="img/blog1.jpg">
-		</div>
-		<div class="col-md-9">
-			<div class="artblog">
-				<h4>DANZA ARTISTICA</h4>
-				<span><em>01-Abr-2016</em></span>
-				<p>Se caracteriza porque se han creado métodos de enseñanza para su aprendizaje, y están” reglamentados” y sistematizados hasta cierto punto los pasos o movimientos a realizar ...</p>
-				<button class="boton"><a href="https://www.google.com.pe">Ver más</a></button>
-			</div>
-		</div>
-	</div>
-	<div class="row grand">
-		<div class="col-md-3">
-			<img class="fotoblog" src="img/profesor_5.jpg">
-		</div>
-		<div class="col-md-9">
-			<div class="artblog">
-				<h4>DANZA ARTISTICA</h4>
-				<span><em>01-Abr-2016</em></span>
-				<p>Se caracteriza porque se han creado métodos de enseñanza para su aprendizaje, y están” reglamentados” y sistematizados hasta cierto punto los pasos o movimientos a realizar ...</p>
-				<button class="boton"><a href="https://www.google.com.pe">Ver más</a></button>
-			</div>
-		</div>
-	</div>
-	<div class="row grand">
-		<div class="col-md-3">
-			<img class="fotoblog" src="img/instructor_1.jpg">
-		</div>
-		<div class="col-md-9">
-			<div class="artblog">
-				<h4>DANZA CLASICA</h4>
-				<span>01-Feb-2016</span>
-				<p>Es aquella que tiene su origen en Europa, más concretamente en los bailes cortesanos de la nobleza, como distracción y diversión para esa clase social. A este tipo de danza se le fueron agregando reglamentaciones o lineamientos. ...</p>
-				<button class="boton"><a href="https://www.google.com.pe">Ver más</a></button>
-			</div>
-		</div>
-	</div>	
-</section>
-<!--PARTE DE CONTACTANOS -->
-	<section class="contactanos" >
-		<div class="container">
-			<div class="row">
-				<div class=" formulario col-xs-8 col-sm-8 col-md-7">
-					<h1><strong>Contáctanos</strong></h1>
-					<br>
-					<form method="POST" name="fcontacto" id="fcontacto" action="/.">
-
-						<div class=" formula input-group">
-						  <span class="input-group-addon"><span class="glyphicon glyphicon-zoom-in"></span></span>
-						  <input type="text" name="name" id="name" class="form-control" placeholder="Nombre">
-						</div>
-
-						<div class="formula input-group">
-						  <span class="input-group-addon"><span class="glyphicon  glyphicon-envelope"></span></span>
-						  <input type="text" name="email" id="email" class="form-control" placeholder="Email">
-						</div>
-
-						<div class="formula input-group">
-						  <span class="input-group-addon"><span class="glyphicon glyphicon-pencil"></span></span>
-						  <textarea name="mensaje" id="mensaje" cols="40" rows="10" class="form-control" placeholder="Mensaje"></textarea> 
-						</div>
-
-						<input type="submit" value="Enviar" class="btn btn-info">
-						<!--Aqui la parte de la validacion-->
-						<div id="repuesta"  style="display: none;"></div>
-					</form>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">	
+		<link rel="stylesheet" href="boot/css/bootstrap.min.css">
+		<title>Escuela de Danza</title>
+		<link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Montserrat:400,700'>
+		<link rel="stylesheet" type="text/css" href="css/utilities.css">
+		<link rel="stylesheet" type="text/css" href="css/common.css">
+		<link rel="stylesheet" type="text/css" href="css/blog.css">
+		<link href="https://fonts.googleapis.com/css?family=Bonbon|Rouge+Script" rel="stylesheet">	
+	</head>
+	<body>
+<!--AQUI ESTA EL HEADER-->
+		<header>
+			<div class="container">
+				<div class="row menu">
+					<div class="col-md-12 text-center ">
+						<h1><strong>ESCUELA DE DANZA</strong></h1>
+					</div>
+					<div class="col-md-12 ">
+						<ul class="list-inline list-unstyled text-center">
+							<li><a href="nosotros.html">Nosotros</a></li>
+							<li><a href="clases.html">Clases</a></li>
+							<li><a href="blog.html">Blog</a></li>
+							<li><a href="index.html">Contáctanos</a></li>
+						</ul>
+					</div>	
 				</div>
 			</div>
-		</div>
-	</section>
+		</header>
+<!---AQUI ESTA LA SECCION DEL BLOG-->
+		<section class="blog">
+			<h3><b>BLOG</b></h3>
+			<div class="row grand">
+				<div class="col-md-3">
+					<img class="fotoblog" src="img/blog1.jpg">
+				</div>
+				<div class="col-md-9">
+					<div class="artblog">
+						<h4>DANZA ARTISTICA</h4>
+						<span><em>01-Abr-2016</em></span>
+						<p>Se caracteriza porque se han creado métodos de enseñanza para su aprendizaje, y están” reglamentados” y sistematizados hasta cierto punto los pasos o movimientos a realizar ...</p>
+						<button class="boton"><a href="https://www.google.com.pe">Ver más</a></button>
+					</div>
+				</div>
+			</div>
+			<div class="row grand">
+				<div class="col-md-3">
+					<img class="fotoblog" src="img/profesor_5.jpg">
+				</div>
+				<div class="col-md-9">
+					<div class="artblog">
+						<h4>DANZA ARTISTICA</h4>
+						<span><em>01-Abr-2016</em></span>
+						<p>Se caracteriza porque se han creado métodos de enseñanza para su aprendizaje, y están” reglamentados” y sistematizados hasta cierto punto los pasos o movimientos a realizar ...</p>
+						<button class="boton"><a href="https://www.google.com.pe">Ver más</a></button>
+					</div>
+				</div>
+			</div>
+			<div class="row grand">
+				<div class="col-md-3">
+					<img class="fotoblog" src="img/instructor_1.jpg">
+				</div>
+				<div class="col-md-9">
+					<div class="artblog">
+						<h4>DANZA CLASICA</h4>
+						<span>01-Feb-2016</span>
+						<p>Es aquella que tiene su origen en Europa, más concretamente en los bailes cortesanos de la nobleza, como distracción y diversión para esa clase social. A este tipo de danza se le fueron agregando reglamentaciones o lineamientos. ...</p>
+						<button class="boton"><a href="https://www.google.com.pe">Ver más</a></button>
+					</div>
+				</div>
+			</div>	
+		</section>
+<!-- Esta es la seccion de CONTACTANOS -->
+		<section class="contacto" Id="contacto">
+			<div class="container ">
+				<div class="row">
+					<div class="col-md-6">
+						<form action="formulario">
+							<h3>Contactanos</h3>
+							<div class="left-inner-addon ">
+								<i class="glyphicon glyphicon-user"></i>
+								<input type=user class="form-control" placeholder="Nombre" />
+							</div>
+							<br>
+							<div class="left-inner-addon ">
+								<i class="glyphicon glyphicon-envelope"></i>
+								<input type="email" class="form-control" placeholder="E-mail" />
+							</div>
+							<br>
+							<div class="left-inner-addon ">
+								<i class="glyphicon glyphicon-pencil"></i>
+								<textarea type="mensaje" rows="4" cols="50" class="form-control" placeholder="Mensaje"></textarea>
+								<button type="button" name="button">Enviar</button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</section>
 <!-- Esta es la seccion del FOOTER -->
-	<footer>
-		<div class="container-fluid">
-			<div class="row">
-				<small> © Escuela de danza. Todos los derechos reservados.</small>
-			</div>
-		</div>	
-	</footer>
-
-	<script src="boot/js/jquery.js"></script>
-	<script src="boot/js/bootstrap.min.js"></script>
-</body>
+		<footer>
+			<div class="container-fluid">
+				<div class="row">
+					<small> © Escuela de danza. Todos los derechos reservados.</small>
+				</div>
+			</div>	
+		</footer>
+<!-- AQUI ESTAN LOS SCRIPT -->
+		<script src="boot/js/jquery.js"></script>
+		<script src="boot/js/bootstrap.min.js"></script>
+	</body>
 </html>

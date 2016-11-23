@@ -1,8 +1,13 @@
 /* Inserta tu codigo que es común para todas las páginas aqui */
-/*AQUI EL HEADER*/
-
+/*AQUI EL ESTILO GENERAL PARA TODOS*/
+*
+{
+  margin: 0;
+  padding: 0;
+  font-family: 'DolceVita', cursive;
+}
 @import url('https://fonts.googleapis.com/css?family=Merienda+One|Permanent+Marker|Rock+Salt|Sacramento|Tangerine');
-
+/*AQUI EL HEADER*/
 header { 
 	padding: 20px 0px; 
 	background: url("../img/textura_2.jpg") no-repeat;
@@ -15,57 +20,83 @@ header .menu ul li
 }
 header .menu ul li a { 
 	text-decoration:none;
+  font-size: 20px;
+ 
  }
 header h1{
 	color: #19153A;
+
+
+
  }
 
-.titulo9{
-	font-family: 'Rock Salt', cursive;
-}
-
-/*FRASE MOTIVADORA*/
-.frase_motivadora .frase{ margin: 80px 0px; }
-.fraseok{
-	font-family: 'Tangerine', cursive;
-
-}
-
 /*PARTE DEL CONTACTANOS*/
-.contactanos{
-	background: url("../img/shoes_!.jpg") no-repeat;
-	background-size: cover;
-	background-position: top;
-	height: 700px;
+.contacto{
+  background: url(../img/shoes_!.jpg) right no-repeat;
+  background-size: 60%;
+  background-position:90%;
+  padding: 30px;
 }
-.contactanos .formulario{ margin: 120px auto; color:#19153A;}
-.formulario form
+.contacto form{
+  width: 500px;
+  margin-top: 60px;
+  margin-left: 30px;
+}
+.contacto form h3{
+  color: rgb(26, 41, 82);
+  margin-bottom: 30px;
+  font-size: 30px;
+}
+.left-inner-addon {
+    position: relative;
+}
+.left-inner-addon input {
+    padding-left: 30px;
+}
+.left-inner-addon textarea[type="mensaje"]
 {
-	padding-right: 140px;
-	padding-left: 10px;
+  padding-left: 30px;
 }
-.formulario h1 { margin-bottom: 20px; }
-
-form .btn
+.left-inner-addon i 
 {
-	background-color:#19153A;
-	border:none;
-	width: 100%; 
-	height: 40px; 
-	margin-top: 10px;
+  position: absolute;
+  padding: 10px 12px;
+  pointer-events: none;
 }
-.formula
+.right-inner-addon
 {
-	margin-top: 10px;
-	border: 1px solid gray;
+    position: relative;
 }
-.formula input
+.right-inner-addon input 
 {
-	outline: none;
+  padding-right: 30px;
 }
-
-.btn:focus { outline: none; }
-
+.right-inner-addon i 
+{
+  position: absolute;
+}
+.contacto button
+{
+  padding: 20px 1px;
+  background: rgb(26, 41, 82);
+  color:#fff;
+  border-radius: 5px;
+  border: none;
+  width: 500px;
+  margin: 10px 1px;
+}
+/*Esta es la seccion de la FRASE MOTIVADORA*/
+.frase_motivadora
+{
+  background: url("../img/textura_2.jpg") no-repeat;
+  background-size: cover;
+}
+.frase h3
+{   
+  font-size: 30px;
+  font-family: 'Tangerine', cursive;
+  margin: 80px 0px; 
+}
 /*AQUI EL FOOTER*/
 footer{
 	background-color: #19153A;

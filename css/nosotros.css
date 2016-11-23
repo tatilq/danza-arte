@@ -1,6 +1,7 @@
-*{
-	margin: 0;
-	padding: 0;
+*
+{
+  margin: 0;
+  padding: 0;
 }
 /*---------Hero Section --------------------*/
 
@@ -74,10 +75,4 @@
 .fila2
 {
 	margin-top: 20px;
-}
-/*--------------Esta es la seccion de la FRASE MOTIVADORA-----------*/
-.frase_motivadora
-{
-	background: url("../img/textura_2.jpg") no-repeat;
-	background-size: cover;
 }

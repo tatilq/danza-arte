@@ -1,8 +1,9 @@
-/* Inserta tu codigo aqui 
-outline: 2px solid green;
-} */
-
 /*Esta es la parte de la PRESENTACION*/
+*
+{
+  margin: 0;
+  padding: 0;
+}
 .presentacion
 {
 	background: url("../img/dance_1.jpg") no-repeat;
@@ -65,12 +66,7 @@ outline: 2px solid green;
 	background-color:#19153A;
 	color: white; 
 }
-/*Esta es la seccion de la FRASE MOTIVADORA*/
-.frase_motivadora
-{
-	background: url("../img/textura_2.jpg") no-repeat;
-	background-size: cover;
-}
+
 /*Esta es la seccion de VISITANOS*/
 .visitanos { background-color:#19153A; color: white; }
 .visitanos #mapa
